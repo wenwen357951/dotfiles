@@ -1,0 +1,47 @@
+{
+  "editor.fontSize": 18,
+  "editor.tabSize": 4,
+  "editor.formatOnSave": false,
+  "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "JetBrains Mono, MesloLGS NF, MesloLGS Nerd Font, Consolas",
+  "terminal.integrated.fontFamily": "Jetbrain Mono NL, MesloLGS NF, MesloLGS Nerd Font",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Darcula",
+  "workbench.productIconTheme": "material-product-icons",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.settings.applyToAllProfiles": [
+    "files.autoSave",
+    "editor.fontSize",
+    "editor.tabSize",
+    "editor.fontFamily",
+    "terminal.integrated.fontFamily",
+    "editor.formatOnSave",
+    "github.copilot.enable",
+    "workbench.iconTheme",
+    "workbench.productIconTheme",
+    "workbench.colorTheme"
+  ]
+}
