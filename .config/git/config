@@ -1,0 +1,18 @@
+[user]
+name = ShengWen Chen
+email = wenwen357951@gmail.com
+
+[core]
+autocrlf = input
+compression = 9
+whitespace = error
+
+[init]
+defaultBranch = main
+
+[github]
+user = wenwen357951
+
+# URL shortcuts
+[url "git@github.com:"]
+insteadOf = "gh:"
